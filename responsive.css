@@ -4,7 +4,7 @@
         overflow-x: hidden;
     }
     .container-banner{
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .bar{
         display: block;
@@ -34,7 +34,7 @@
 .about-me{
     display: flex;
     flex-direction: column;
-    padding: 30px 20px;
+    padding: 30px 10px;
 }
 .about-me-content{
     width: 100%;
@@ -47,7 +47,7 @@
 /* ------------------experience---------------- */
 .experience{
     gap: 50px;
-    padding: 50px 20px;
+    padding: 50px 10px;
     display: flex;
     flex-direction: column;
 }
@@ -59,7 +59,7 @@
 }
 /* ----------------award-------------------- */
 .container-award{
-    padding: 20PX 20px;
+    padding: 20PX 10px;
     width: 100%;
 }
 .award-up{
@@ -82,7 +82,7 @@
 }
 /* ----------------portfolio------------------ */
 .container-portfolio{
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 .port-button{
     display: flex;
@@ -107,12 +107,12 @@
 }
 /* --------------------contact------------------------ */
 .container-contact{
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 /* ------------conclusion--------------- */
 .container-conclusion{
     gap: 10px;
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 .container-conclusion>.nav-items>ul>li>a{
     font-size: 10px;
