@@ -1,0 +1,162 @@
+@media screen and (max-width:672px){
+    /* ----------------navbar------------------- */
+    body{
+        overflow-x: hidden;
+    }
+    .container-banner{
+        padding: 0 20px;
+    }
+    .bar{
+        display: block;
+    }
+    .navbar>.nav-items{
+        display: none;
+    }
+    /* ----------------hero------------------- */
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .work{
+        gap: 10PX;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .profile-img{
+        padding: 20px;
+    }
+/* -------------------about me-------------------- */
+.about-me{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+.about-me-content{
+    width: 100%;
+    text-align: start;
+}
+.about-me-rating{
+    width: 100%;
+    text-align: end;
+}
+/* ------------------experience---------------- */
+.experience{
+    gap: 50px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ex-details{
+    width: 100%;
+}
+.ex-points{
+    width: 100%;
+}
+/* ----------------award-------------------- */
+.container-award{
+    padding: 20PX 20px;
+    width: 100%;
+}
+.award-up{
+    padding: 20px 0;
+    gap: 50px;
+}
+.award-down{
+    width: 100%;
+    
+}
+.award-up h1{
+    font-size: 20px;
+}
+.award-up h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.award-02{
+    padding: 10px;
+}
+/* ----------------portfolio------------------ */
+.container-portfolio{
+    padding: 20px 20px;
+}
+.port-button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.port-mid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.port-img{
+    width: 100%;
+}
+.port-content{
+    width: 100%;
+    padding-left: 0;
+}
+.port-resposive{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* --------------------contact------------------------ */
+.container-contact{
+    padding: 20px 20px;
+}
+/* ------------conclusion--------------- */
+.container-conclusion{
+    gap: 10px;
+    padding: 20px 20px;
+}
+.container-conclusion>.nav-items>ul>li>a{
+    font-size: 10px;
+}
+.container-conclusion>.nav-items>ul{
+    gap: 10px;
+}
+.container-conclusion h1{
+    font-size: 30px;
+}
+/* -----------------footer------------------ */
+footer P{
+    padding: 10px;
+    font-size: 10px;
+}
+footer span{
+    font-weight: 400;
+    font-size: 12px;
+}
+}
+
+
+
+
+@media screen and (max-width:990px){
+    .container-banner{
+        padding: 0 50px;
+    }
+    .about-me{
+        padding: 30px 50px;
+    }
+    .experience{
+        padding: 50px 50px;
+    }
+    .container-award{
+        padding: 20PX 50px;
+    }
+    .container-portfolio{
+        padding: 20px 50px;
+    }
+    .container-contact{
+        padding: 20px 50px;
+    }
+    .container-conclusion{
+        padding: 20px 50px;
+    }
+}
